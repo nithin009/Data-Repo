@@ -27,3 +27,23 @@ Data transformation was at the heart of this phase. Using a combination of text,
 •	Creating conditional columns to derive new data attributes based on predefined rules. For instance, classifying customers as high-value or low-value based on their purchase history.<br>
 <br>
 To make the data more manageable and insightful, I leveraged Power Query's capabilities to group records. Quality control was an ongoing process. I implemented checks to ensure that the transformed data adhered to business rules and logic, By the completion of Phase 1, the data was not only cleansed and transformed but also primed for advanced analytics and visualization in Power BI.
+
+# Phase 2: Creating a Data model
+
+![image](https://github.com/nithin009/Data-Analysis-Power-BI/assets/24668558/d58a08bb-421c-4778-acbb-21a1530a617e)
+
+In this phase, I focused on structuring the data for efficient analysis and visualization.
+
+### Key Steps:
+• Organized the data into **normalized structures**, separating it into fact and dimension tables to reduce redundancy and improve data integrity.<br>
+• Established essential **table relationships** using primary and foreign keys, ensuring that data remained consistent across tables and enabling cross-table analysis.<br>
+• Common data schemas were implemented to standardize data representation, making it easier to work with and maintain.<br>
+• Defined various types of relational cardinality (one-to-one, one-to-many, many-to-many) to accurately model data relationships, a crucial step in designing the data model.<br>
+• configured report filters, allowing users to control the context of their analysis, enhancing the interactivity of the final dashboard.<br>
+• Established hierarchical structures within the data to facilitate drill-down analysis, helping users explore data at different levels of granularity.<br>
+• Data attributes were categorized for better organization, and hidden fields were used to optimize data modeling and enhance the user experience.<br>
+
+This phase builds upon the strong foundation laid in Phase 1, ensuring that our data is not only clean but also structured in a way that maximizes its value for analysis and reporting.
+
+
+
