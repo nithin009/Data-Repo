@@ -10,7 +10,7 @@ Conducted an in-depth data analysis for a leading global manufacturing company s
 ### Data Sources:
 For this project, I sourced raw data from CSV files, which contained essential information about sales transactions, returns, product attributes, customer profiles, and sales territories. The diversity of this dataset provided a holistic view of our sales operations.
 
-# Phase 1: Connect, Shape, and Transform Data using Power Query
+# Connect, Shape, and Transform Data using Power Query
 In the initial phase of the project, I harnessed the powerful capabilities of Power Query within Power BI to lay a solid foundation for subsequent data analysis and visualization. This phase was crucial in ensuring that the data was not only accurate and well-structured but also tailored to the specific requirements of the project.
 
 ### Connectivity and Data Exploration:
@@ -28,7 +28,7 @@ Data transformation was at the heart of this phase. Using a combination of text,
 <br>
 To make the data more manageable and insightful, I leveraged Power Query's capabilities to group records. Quality control was an ongoing process. I implemented checks to ensure that the transformed data adhered to business rules and logic, By the completion of Phase 1, the data was not only cleansed and transformed but also primed for advanced analytics and visualization in Power BI.
 
-# Phase 2: Creating a Data model
+# Creating a Data model
 
 ![image](https://github.com/nithin009/Data-Analysis-Power-BI/assets/24668558/d58a08bb-421c-4778-acbb-21a1530a617e)
 
@@ -44,6 +44,52 @@ In this phase, I focused on structuring the data for efficient analysis and visu
 • Data attributes were categorized for better organization, and hidden fields were used to optimize data modeling and enhance the user experience.<br>
 
 This phase builds upon the strong foundation laid in Phase 1, ensuring that our data is not only clean but also structured in a way that maximizes its value for analysis and reporting.
+
+# Utilizing DAX for Enhanced Analysis
+In this phase, I leveraged the power of Data Analysis Expressions (DAX) to enhance our data model. I added calculated columns and measures to make our analysis more robust.
+
+![image](https://github.com/nithin009/Data-Analysis-Power-BI/assets/24668558/1611e3fa-9963-4f35-990e-c23e67f619ca)
+
+
+### Key Steps:
+* Learned when to use calculated columns (for static values) and measures (for dynamic and context-sensitive calculations).<br>
+* Understood the difference between row context and filter context, which was crucial for precise calculations.<br>
+* Explored various DAX functions, from basic math and logic to text, date/time, and filtering functions, enabling a wide range of calculations.<br>
+* I dived into using multiple DAX functions together to create more complex calculations tailored to specific needs.<br>
+* delved into advanced DAX features like iterators and time intelligence patterns, which allowed me to perform intricate calculations and gain deeper insights into time-based data trends.<br>
+
+This phase equipped me with the skills to create dynamic and context-aware calculations, making our data model an invaluable tool for data-driven decision-making.
+
+
+# Bringing Data to Life - Data Visualization
+
+I shifted my focus towards visualizing the data and creating dynamic, interactive reports that would empower users to derive meaningful insights. This involved a comprehensive review of best practices for data visualization and report design, as well as the application of tools and techniques within Power BI.
+
+![image](https://github.com/nithin009/Data-Analysis-Power-BI/assets/24668558/6aa95399-7ef2-48c7-8d06-5f637d472bc1)
+
+![image](https://github.com/nithin009/Data-Analysis-Power-BI/assets/24668558/462d2d74-f0cc-4fac-894f-ce4decdf9162)
+
+![image](https://github.com/nithin009/Data-Analysis-Power-BI/assets/24668558/1c34a2b2-12f4-43c5-8e05-eacff19628be)
+
+![image](https://github.com/nithin009/Data-Analysis-Power-BI/assets/24668558/5d93669f-228d-40b5-94e9-a8b2aef62aaa)
+
+
+
+
+
+### Key Steps: 
+* built dynamic, user-friendly reports that transformed raw data into visually engaging insights, enhancing decision-making. <br>
+* I meticulously reviewed frameworks and best practices for data visualization, ensuring that the reports were both informative and aesthetically pleasing. <br>
+* I used a variety of tools and techniques to insert, format, and filter visuals in the Power BI report view, making the data more accessible and understandable.<br>
+* To further engage users, I added interactivity features such as bookmarks, slicer panels, parameters, tooltips, and report navigation, facilitating a more immersive exploration of the data.<br>
+* To protect sensitive data, I configured row-level security with user roles, ensuring that only authorized personnel had access to specific data subsets. I optimized the reports to ensure smooth performance, even with large datasets, allowing for a seamless user experience.<br>
+
+
+# Empowering Informed Decisions 
+
+I utilized Power BI to create a dynamic report for tracking crucial KPIs like revenue, profit, orders, and return rates. The report also explored product categories, regional insights, product details, and identified top customers. This visual and interactive tool equips our organization with valuable insights, transforming data into informed decision-making, and driving business success.
+
+
 
 
 
