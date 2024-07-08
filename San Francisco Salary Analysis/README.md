@@ -14,6 +14,7 @@ Before analysis, the dataset underwent several data cleaning steps to ensure acc
 - Removal of duplicates and irrelevant records.
 - Handling missing values by imputation or removal based on context.
 - Standardization of data formats and units across different columns.
+
 3. Data Ingestion
 The cleaned dataset was ingested into a SQL database (salaries_db) for efficient querying and analysis.
 
